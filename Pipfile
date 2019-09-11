@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = "==0.4.1"
+torch = ">=0.4.1"
 
 [dev-packages]
 tqdm = "==4.23.4"
