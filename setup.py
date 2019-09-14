@@ -19,7 +19,7 @@ def read(fname):
 
 BASE_URL = "https://github.com/anassinator/bnn"
 INSTALL_REQUIRES = [
-    "torch==0.4.1",
+    "torch>=0.4.1",
 ]
 
 # Parse version information.
