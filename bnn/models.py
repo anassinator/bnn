@@ -5,7 +5,8 @@ import inspect
 
 from functools import partial
 from torch.nn import Parameter
-from collections import Iterable, OrderedDict
+from collections import OrderedDict
+from collections.abc import Iterable
 
 
 class BDropout(torch.nn.Dropout):
